@@ -11,15 +11,27 @@ Persistent Storage: Tasks are stored in an SQLite database, ensuring data persis
 
 Technologies Used
 Go: Programming language for backend development.
+
 Gorilla Mux: Router for managing HTTP requests.
+
 SQLite: Lightweight, serverless database for data storage.
+
 How to Use
+
 Clone the repository to your local machine.
+
 Ensure you have Go and SQLite installed.
+
 Run the application using go run main.go.
+
 Open your browser and go to http://localhost:8080 to access the to-do list.
+
 Project Structure
+
 main.go: Main Go file containing the server logic.
+
 handlers.go: HTTP request handlers using Gorilla Mux.
+
 database.go: Database setup and interactions with SQLite.
+
 views/: HTML templates for rendering the user interface.
